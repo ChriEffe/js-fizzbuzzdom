@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body  {
+    background-color: #183a4a;
+}
+
 h1  {
     text-align: center;
     font-size: 5em;
+    color: white;
 }
 
 .container  {
@@ -22,7 +27,20 @@ h1  {
     width: 150px;
     height: 150px;
     border: 1px solid black;
+    background-color: #3d88ae;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.green  {
+    background-color: #61d2a4;
+}
+
+.yellow  {
+    background-color: #f9d277;
+}
+
+.red  {
+    background-color: #de5471;
 }
